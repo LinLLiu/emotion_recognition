@@ -1,0 +1,10 @@
+cutface是截取人的面部表情图
+相应代码是face_extract.py
+
+img是截取的人的动作图
+相应代码是extract_human.py
+
+其余是按照所截取的图片进行各种情绪的分类文件夹
+
+cutface截取时人脸图像大小不一致，可以使用reshape_image进行标准化
+img不需要，因为人的动作不一致，没有统一的尺寸

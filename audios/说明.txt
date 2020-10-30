@@ -1,0 +1,8 @@
+音频段可以由视频转换成音频，再进行处理。转换方法可以使用在线转换工具。我这里使用的是online-audio-converter.com
+
+audios是要剪切的音频段
+cutresults是代码运行完成的剪切结果
+相应代码是extract_audio.py
+
+AUDIO.csv是读取cutresults的所有文件名存入csv文件当中，然后根据每段音频的情绪对其进行分类(手动分类)，
+相应代码是read_filename_to_csv.py
